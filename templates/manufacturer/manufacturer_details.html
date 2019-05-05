@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>{{ manufacturer.name }}</h1>
+    <p>{{ manufacturer.year_of_start }}</p>
+    {% for manufacturer-image in manufacturer.logo.set %}
+        <img src="{{ manufacturer-image.logo }}" alt="manufacturer-logo">
+    {% endfor %}
+
+{% endblock %}
