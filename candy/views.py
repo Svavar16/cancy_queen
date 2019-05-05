@@ -1,19 +1,9 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from candy.models import Candy
 
 # Create your views here.
-candies = [
-    {
-        'name': 'skitles',
-        'price': 4.99
-    },
-    {
-        'name': 'smarties',
-        'price': 5.99
-    }
-]
 
 
 def index(request):
-    context = {'candies': candies}
+    context = {'candies': Candy.objects.all().order_by('name')}
     return render(request, 'candy/index.html', context)
