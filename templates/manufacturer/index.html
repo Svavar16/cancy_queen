@@ -3,5 +3,10 @@
 {% block content %}
 
     <h3>Hello from within the manufacturer app</h3>
+    <div>
+        {% for manufacturer in manufacturer %}
+            {% include 'manufacturer/single_manufacturer.html' with manufacturer=manufacturer %}
+        {% endfor %}
+    </div>
 
 {% endblock %}
