@@ -3,5 +3,15 @@
 {% block content %}
 
     <h3>Hello from within the Candy app</h3>
-
+    {% for candy in candies %}
+        {% if candy.price > 5 %}
+            <p>expensive candy</p>
+        {% else %}
+            <p>not that expensive</p>
+        {% endif %}
+        <ul>
+            <li>{{ candy.name }}</li>
+            <li>{{ candy.price }}$</li>
+        </ul>
+    {% endfor %}
 {% endblock %}
