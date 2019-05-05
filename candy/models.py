@@ -6,6 +6,9 @@ from manufacturer.models import Manufacturer
 class CandyCategory(models.Model):
     name = models.CharField(max_length=255)
 
+    def __str__(self):
+        return self.name
+
 
 class Candy(models.Model):
     name = models.CharField(max_length=255)
@@ -14,6 +17,9 @@ class Candy(models.Model):
     price = models.FloatField()
     on_sale = models.BooleanField()
     manufacturer = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
 
 
 class CandyImage(models.Model):
