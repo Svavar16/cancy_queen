@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f2283d8-63a9-4e89-9431-edc267bf8e73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/candy/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/candy/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/candy/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/candy/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/candy_queen/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/candy_queen/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +27,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/candy/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/candy_queen/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -50,12 +57,12 @@
         <option value="$PROJECT_DIR$/templates/manufacturer/index.html" />
         <option value="$PROJECT_DIR$/static/css/main.css" />
         <option value="$PROJECT_DIR$/candy_queen/urls.py" />
-        <option value="$PROJECT_DIR$/candy_queen/settings.py" />
         <option value="$PROJECT_DIR$/candy/urls.py" />
         <option value="$PROJECT_DIR$/manufacturer/urls.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/candy/views.py" />
         <option value="$PROJECT_DIR$/templates/candy/index.html" />
+        <option value="$PROJECT_DIR$/candy_queen/settings.py" />
       </list>
     </option>
   </component>
@@ -85,6 +92,11 @@
               <item name="candy_queen" type="b2602c69:ProjectViewProjectNode" />
               <item name="candy_queen" type="462c0819:PsiDirectoryNode" />
               <item name="candy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candy_queen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candy_queen" type="462c0819:PsiDirectoryNode" />
+              <item name="candy_queen" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="candy_queen" type="b2602c69:ProjectViewProjectNode" />
@@ -163,25 +175,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557049702373</updated>
-      <workItem from="1557049801744" duration="8303000" />
+      <workItem from="1557049801744" duration="9015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8303000" />
+    <option name="totallyTimeSpent" value="9015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.38244852" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.26977247" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.26977247" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -244,13 +256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="1160" selection-start-line="1160" selection-end-line="1160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candy_queen/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -325,7 +330,14 @@
     <entry file="file://$PROJECT_DIR$/templates/candy/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candy_queen/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="85" column="16" selection-start-line="85" selection-start-column="16" selection-end-line="85" selection-end-column="16" />
         </state>
       </provider>
     </entry>
